@@ -3,6 +3,7 @@
 <head>
     <title> NETRA ROVER</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header class="topbar">
@@ -14,7 +15,7 @@
                 <p>ROVER MONITORING SYSTEM</p>
             </div>
         </div>
-        <!-- This block is for navigation  -->
+        <!--This block is for navigation  -->
         <nav>
             
            <a href="#Dashboard">Dashboard</a>
@@ -32,8 +33,40 @@
     </div>
         <!-- This is for dispatch mission button -->
          <button id="Dispatch-open" type="button">Dispatch Mission</button>
+
     </div>
 </header>
 <h2>This is the part of example</h2>
+<!--============================Header section====================================-->
+<main class="page">
+
+    <section class="kpi-grid">
+    <article class="kpi-card">
+        
+        <span>ROVERS ONLINE</span>
+        <h1 id="online-count">6/6</h1>
+        <P>Active rover units</P>
+    </article>
+
+    <article class="kpi-card">
+        <span>AVERAGE BATTERY</span>
+        <h1 id="average-battery">85%</h1>
+        <P>Fleet battery level</P>
+    </article>
+
+    <article class="kpi-card">
+        <span>OPEN ALERTS</span>
+        <h1 id="alert-count">2</h1>
+        <P>Requires attention</P>
+    </article>
+
+    <article class="kpi-card">
+        <span>DISTANCE TODAY</span>
+        <h1 id="distance-today">10 km</h1>
+        <P>Total distance covered</P>
+
+    </article>
+    </section>
+</main>
 </body>
 </html>
